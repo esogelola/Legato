@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bulleted > span:not(:first-child)::before {
+    margin: 0 0.375rem;
+    content: "•";
+    color: #9ea6ab;
+  }
+}
